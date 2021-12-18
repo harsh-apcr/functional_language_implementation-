@@ -6,3 +6,7 @@
 
 <let> ::= let <id> <assign> <expr> in <expr> end
 <if> ::= if <expr> then <expr> else <expr> fi
+
+fn (x:: <type>) => <expr> end
+fun <name> (y::<type>)::<type> => <expr> end
+(f <expr>)
